@@ -11,4 +11,10 @@
 
 --- --- --- ---
 
- 2.  
+ 2.  Create Secret
+
+ kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf
+
+ --- --- --- --- 
+
+ 3. 
